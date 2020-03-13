@@ -1,0 +1,113 @@
+.App {
+  margin-top: 2px;
+}
+.mininote {
+
+  width: 95%;
+  height: 800px;
+}
+.notesName {
+  height: 55px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.notesName span {
+ 
+  margin-left: 10px;
+  margin-top: 10px;
+  
+}
+
+.notesName-active span {
+ 
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.unnderText {
+  font-size: 14px;
+  display: block;
+  position: relative;
+  bottom: 13px;
+  color: silver;
+
+}
+
+
+.notesName-active .unnderText {
+  font-size: 14px;
+  display: block;
+
+ bottom: 13px;
+  
+  color: rgb(148, 144, 144);
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.bigNote {
+  height: 800px;
+
+}
+
+.biginote{
+  width: 85%;
+}
+.button {
+  
+  width: 100%;
+  height: 36px;
+
+}
+.notestitle {
+  display: flex;
+  justify-content: space-between;
+}
+.notestitle i {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.notesName-active {
+  background-color: #d6d8eb;
+  height: 55px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.rightBarTitle {
+  width: 100%;
+  height: 45px;
+  background-color: #007bff;
+
+}
+.rightBarTitle span {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+  margin-left: 10px;
+}
+
+.rightBarTitle span i {
+  position: relative;
+  top: 2px;
+  font-size: 18px;
+  margin-right: 4px;
+}
+.rightBarTitle span input {
+  background-color: #007bff;
+  color: white;
+  border: 0px;
+  resize: none;
+  height: 70%;
+}
+.ck-editor__editable_inline {
+  min-height: 800px;
+} 
+
