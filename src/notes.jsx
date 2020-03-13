@@ -51,7 +51,7 @@ function Notes(props) {
 
     <div className='main'>
 
-      <Scrollbars style={{ width: 300, height: 800 }}>
+      <Scrollbars style={{ width: 300, height: 820 }}>
         <div className='mininote'>
 
           {state.toggleInput ? <Button onClick={() => dispatch({ type: 'getInput' })} className='button' variant="primary">New Note</Button> : <div> <Button onClick={() => dispatch({ type: 'getInput' })} className='button' variant="primary">CANCEL</Button>  <input onChange={e => dispatch({ type: 'setTitle', text: e.target.value })} placeholder='Enter note title' className='button' type="text" />   <Button onClick={() =>{ dispatch({ type: 'setToggle', id:'s' }); dispatch({ type: 'AddNewNote' })}} className='button' variant="outline-success">SUBMIT NOTE</Button> </div>}
